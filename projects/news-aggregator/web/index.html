@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI + Crypto 热点聚合</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #0a0a0f; color: #e0e0e0; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; margin-bottom: 40px; }
+        h1 { font-size: 2.5rem; background: linear-gradient(135deg, #00d4ff, #7b2cbf); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 10px; }
+        .subtitle { color: #888; font-size: 0.9rem; }
+        .stats { display: flex; justify-content: center; gap: 40px; margin: 30px 0; }
+        .stat { text-align: center; }
+        .stat-value { font-size: 2rem; font-weight: bold; color: #00d4ff; }
+        .stat-label { color: #666; font-size: 0.85rem; }
+        .columns { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+        @media (max-width: 768px) { .columns { grid-template-columns: 1fr; } }
+        .column { background: #12121a; border-radius: 16px; padding: 24px; border: 1px solid #1e1e2e; }
+        .column h2 { font-size: 1.3rem; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+        .ai h2 { color: #00d4ff; }
+        .crypto h2 { color: #f7931a; }
+        .news-item { padding: 16px; border-bottom: 1px solid #1e1e2e; transition: background 0.2s; }
+        .news-item:hover { background: #1a1a25; }
+        .news-item:last-child { border-bottom: none; }
+        .news-title { font-size: 0.95rem; color: #e0e0e0; text-decoration: none; display: block; margin-bottom: 6px; line-height: 1.4; }
+        .news-title:hover { color: #00d4ff; }
+        .crypto .news-title:hover { color: #f7931a; }
+        .news-meta { font-size: 0.75rem; color: #666; display: flex; gap: 12px; }
+        .news-source { color: #888; }
+        .timestamp { color: #444; }
+        .empty { text-align: center; color: #444; padding: 40px; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI + ₿ Crypto 热点聚合</h1>
+            <p class="subtitle">更新时间: 2026-02-22 09:07 (Asia/Shanghai)</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-value">0</div>
+                    <div class="stat-label">AI 新闻</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">45</div>
+                    <div class="stat-label">Crypto 新闻</div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="columns">
+            <div class="column ai">
+                <h2>🤖 AI 热点</h2>
+<div class="empty">暂无 AI 新闻 (ArXiv 周末不更新)</div>
+            </div>
+            
+            <div class="column crypto">
+                <h2>₿ Crypto 热点</h2>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358792/ethereum-going-hard-vitalik-buterin-backs-censorship-resistance-upgrade" class="news-title" target="_blank">'Ethereum Is Going Hard': Vitalik Buterin Backs Censorship Resistance Upgrade</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358789/marketers-use-ai-make-sure-you-see-ads" class="news-title" target="_blank">Marketers Could Use AI to Make Sure You See Their Ads—Here's How</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358784/bitcoin-quantum-threat-center-stage-ethereum-conference" class="news-title" target="_blank">Bitcoin Quantum Threat Takes Center Stage at Ethereum Conference</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358782/bitcoin-sell-pressure-easing-whales-dumping-exchanges" class="news-title" target="_blank">Bitcoin Sell Pressure Is Easing, But Whales Keep Dumping on Exchanges: CryptoQuant</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358781/trump-backed-world-liberty-exit-mechanism-maldives-hotel-tokenization" class="news-title" target="_blank">Trump-Backed World Liberty Plots 'Exit Mechanism' for Maldives Hotel Tokenization Project</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358765/after-state-lawsuit-losing-streak-kalshi-victory-tennessee-why" class="news-title" target="_blank">After State Lawsuit Losing Streak, Kalshi Nabs Victory in Tennessee—This Could Be Why</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/resources/what-is-strategy-microstrategy-mstr-the-bitcoin-treasury-company" class="news-title" target="_blank">What Is Strategy (MSTR)? The Bitcoin Treasury Company</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358761/bitcoin-rises-supreme-court-rules-against-trump-tariffs" class="news-title" target="_blank">Bitcoin Rises After Supreme Court Rules Against Trump Tariffs</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358750/amc-theatres-blocks-ai-short-film-from-screening-in-pre-show-advertising" class="news-title" target="_blank">AMC Theatres Blocks AI Short Film From Screening in Pre-Show Advertising</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358744/south-korean-lawmakers-slam-regulators-bithumb-43-billion-bitcoin-blunder" class="news-title" target="_blank">South Korean Lawmakers Slam Regulators Over Bithumb's $43 Billion Bitcoin Blunder</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358742/house-dems-national-security-alarms-trump-family-crypto-bank-charter" class="news-title" target="_blank">House Dems Raise National Security Alarms Over Trump Family’s Crypto Bank Charter Request</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358725/netherlands-bans-polymarket-over-illegal-gambling-services" class="news-title" target="_blank">Netherlands Bans Polymarket Over ‘Illegal Gambling Services’</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358722/morning-minute-base-breaks-up-with-optimism" class="news-title" target="_blank">Morning Minute: Base Breaks Up With Optimism</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358713/bitcoin-etfs-lose-another-166m-as-five-week-withdrawals-near-4b" class="news-title" target="_blank">Bitcoin ETFs Lose Another $166M as Five-Week Withdrawals Near $4B</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://decrypt.co/358710/silicon-valley-engineers-charged-with-theft-of-google-tech-trade-secrets" class="news-title" target="_blank">Silicon Valley Engineers Charged With Theft of Google, Tech Trade Secrets</a>
+                    <div class="news-meta">
+                        <span class="news-source">Decrypt</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">Here’s what happened in crypto today</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/trump-raises-tariff-15-crypto-unfazed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">Trump raises global tariff rate to 15%, but crypto markets are unfazed</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/crypto-retraces-gains-2024-2025-pump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">Crypto market retraces almost all 2024-2025 US election pump gains</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/us-lawmakers-critical-tariffs-derail-economy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">US lawmakers critical of Trump tariffs, say it will derail economy</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/iotex-investigates-token-safe-suspicious-activity-4-3m-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">IoTeX confirms ‘suspicious activity’ involving token safe, says losses contained</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/what-next-crypto-europe-ecb-christine-lagarde?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">What’s next for crypto in Europe after Christine Lagarde steps down?</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/spot-bitcoin-etfs-five-weeks-net-outflows-3-8b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">Spot Bitcoin ETFs record five weeks of net withdrawals, totaling $3.8B</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/bitcoin-price-prediction-retail-user-healthy-crypto-indicator-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">Bitcoin $150K price calls are ‘drying up,’ which is healthy: Santiment</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/mara-majority-stake-exaion-ai-data-centers-bitcoin-miner?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">Bitcoin miner MARA buys majority stake in AI data center firm Exaion</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/uniswap-fake-ads-drain-user-wallets-hayden-adams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">Uniswap founder slams scam crypto ads after victim 'lost everything'</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/bitcoin-price-catalyst-ai-stocks-peak-economist-lyn-alden?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">Bitcoin's bull catalyst could be AI stocks turning 'silly big': Lyn Alden</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/tokenized-real-estate-advance-dubai-maldives?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">Tokenized real estate projects advance in Dubai and Maldives</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/bitcoin-whales-participate-in-v-shaped-accumulation-offsetting-230k-btc-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">Bitcoin whales participate in V-shaped accumulation, offsetting 230K BTC sell-off</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/bitcoin-bears-at-risk-of-600m-liquidation-raising-chance-for-rally-to-70k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">Bitcoin bears at risk of $600M liquidation, raising chance for rally to $70K</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <a href="https://cointelegraph.com/news/dutch-authorities-call-on-polymarket-arm-to-cease-activities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" class="news-title" target="_blank">Dutch authorities call on Polymarket arm to cease activities</a>
+                    <div class="news-meta">
+                        <span class="news-source">Cointelegraph</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
